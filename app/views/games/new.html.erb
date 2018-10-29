@@ -1,0 +1,10 @@
+<h1>Longest Word Game</h1>
+
+<h2>Here are your letters</h2>
+
+<p><%=@letters%></p>
+
+<form action="/score" method="post">
+  <input type="text" name="@word">
+  <input type="submit" value="Enter your word!">
+</form>
